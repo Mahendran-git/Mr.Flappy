@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome-screen" id="welcomeScreen">
+        <img src="https://c4.wallpaperflare.com/wallpaper/838/630/344/flappy-bird-game-popular-news-wallpaper-preview.jpg" alt="Flappy Bird" class="cover-image">
+        <button id="startGameButton" class="welcome-button">Start</button>
+    </div>
+    <div class="game-container" id="gameContainer" style="display: none;">
+        <canvas id="gameCanvas"></canvas>
+        <div class="scoreboard">
+            Score: <span id="score">0</span>
+        </div>
+        <div class="high-score">
+            High Score: <span id="highScore">0</span>
+        </div>
+        <button id="restartButton" class="restart-button" style="display: none;">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
